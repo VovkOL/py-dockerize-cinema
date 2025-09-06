@@ -4,8 +4,8 @@ LABEL maintainer="aav162807@gmail.com"
 
 WORKDIR app/
 
-COPY requirements.txt requirments.txt
-RUN pip install -r requirments.txt
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . .
 
